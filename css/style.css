@@ -1,0 +1,319 @@
+body {
+	background-color: #ccc;
+}
+html, body {
+    height: 100%;
+}
+
+.navbar-wrapper1 .navbar { /* FF3.6-15 */
+background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255,255,255,1)), to(rgba(255,255,255,0.05)));
+background: -webkit-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.05) 100%);
+background: -moz-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.05) 100%);
+background: -o-linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.05) 100%);
+background: linear-gradient(rgba(255,255,255,1) 0%, rgba(255,255,255,0.05) 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#0dffffff',GradientType=0 ); /* IE6-9 */
+    color: #505050;
+}
+.navbar {
+	padding-bottom: 10px;
+}
+.navbar-inverse	{
+	border: none;
+}
+.container .navbar-header {
+	width: auto;
+}
+.container .navbar-header img {
+	margin-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+    padding: 10px;
+}
+.navbar-nav li a {
+	font-size: 16px;
+	font-weight: bold;
+}
+.navbar-nav {
+	float: right;
+}
+/*
+.navbar-nav li select {
+    display:block;
+}
+*/
+.navbar-inverse .navbar-nav li a:link,
+.navbar-inverse .navbar-nav li a:visited,
+.navbar-inverse .navbar-nav li a:active {
+    color: #283c8a !important;
+    font-family: 'Lato', 'Avenir Next', Arial, sans-serif;
+    font-weight: bold;
+    text-shadow: none;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    color: #081d6c !important;
+}
+.navbar-inverse .navbar-nav li a select {
+    font-family: 'Lato', 'Avenir Next', Arial, sans-serif;
+    font-weight:normal;
+    color: gray;
+}
+.carousel-caption {
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+#myCarousel {
+	background: url("https://googledrive.com/host/0B6ulW9ocRZy_MDZpMjRrRVBCX2c") no-repeat bottom center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+    background-size: cover;
+	background-color: #C7C8D6;
+	height: 75%;
+}
+.carousel .item {
+    height: 375px;
+}
+.carousel-caption {
+    position: absolute;
+    top: 90px;
+    z-index: 10;
+}
+.border-right {
+	border-right: 1px solid #081d6c;
+}
+.btn-success h1 {
+    padding: 0px;
+    margin: 0px;
+}
+.btn-success {
+    width: 75%;
+}
+.button-container {
+	width: 100%;
+    padding: 50px 5%;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ccc;
+    border-bottom: 1px solid;
+}
+.button-container a.btn-v-lg {
+	width: 100%;
+	text-align: center;
+}
+.button-container a h1 {
+	margin: 0;
+	padding: 0;
+}
+.faq-container {
+	width: 100%;
+    padding: 0px 5%;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ccc;
+    border-bottom: 1px solid;
+}
+.who-we-are {
+	width: 100%;
+    padding: 20px 5%;
+    margin: 0px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #ccc;
+    border-bottom: 1px solid;
+}
+footer	{
+	padding: 20px 5%;
+	margin: 0;
+	background-color: #ccc;
+	text-align: center;
+	font-size: 14px;
+}
+.overlay-hugeinc	{
+	position: absolute;
+	top: 50px;
+	padding: 0 5%;
+	text-align: center;
+}
+#state-select	{
+	margin: 35px 0px;
+	color: #66b2ff;
+}
+#state-select select	{
+	width: 50%;
+	font-size: 50px;
+}
+.contact-text	{
+	margin: 25px 0px 0px;	
+}
+.contact-text h2	{
+	margin: 5px 0px 0px;
+	padding: 0;
+}
+.contact-text h5	{
+	margin: 10px 0px 0px;
+	padding: 0;
+	color: #585858;
+}
+.contact-text img {
+	width: 6%;
+	height: 6%;
+	padding-bottom: 10px;
+	margin-right: 5px;
+}
+.contact-text select {
+    text-align: center;
+    font-size: 18px;
+    width: 68%;
+
+}
+.panel-group {
+	padding: 15px 0px;
+}
+.panel-group h1,
+.who-we-are h1 {
+	color: #003F90;
+	font-size: 30px;
+}
+.who-we-are h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.panel-body {
+	font-size: larger;
+	color:#505050;
+}
+#accent {
+	color: #fff;
+	text-shadow: 2px 2px #093A1D;
+	margin-bottom: 0px;
+}
+.glyphicon h5 {
+    font-family: 'Lato', 'Avenir Next', Arial, sans-serif;
+}
+.modal-body {
+    text-align: center;
+}
+.modal-body select {
+    width: 50%;
+    .carousel-caption 16px;
+    margin-bottom: 20px;
+}
+.featurette p {
+    text-align: left;
+    font-size: 16px;
+    color: #505050;
+    margin: 0;
+    max-width: 100%;
+}
+.featurette img {
+    display: inline;
+}
+.panel-body p {
+    font-size: smaller !important;
+}
+@media screen and (min-width: 1475px) {
+	#accent {
+	    font-size: 3.5em;
+	}	
+	.carousel-caption {
+        position: absolute;
+        top: 100px;
+        z-index: 10;
+    }
+}
+@media screen and (max-width: 1474px) {
+	#accent {
+	font-size: 3.0em;
+	}	
+	.carousel-caption {
+        position: absolute;
+        top: 70px;
+        z-index: 10;
+    }
+}
+@media screen and (max-width: 1143px) {
+    #accent {
+        font-size: 2.75em;
+    }
+}
+@media screen and (max-width: 766px) {
+	#accent {
+	    font-size: 2.5em;
+	}
+    .carousel-caption {
+        position: absolute;
+        top: 80px;
+        z-index: 10;
+    }
+	.navbar-nav {
+        float: none;
+        margin: 0;
+        text-align: center;
+        background-color: white;
+        opacity: 0.85;
+    }
+    .border-right {
+        border-bottom: 1px solid #081d6c;
+        border-right: none;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 40px;
+        z-index: 10;
+    }
+}
+@media (min-width: 767px) {
+    .navbar-toggle {
+        display: none !important;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-collapse .collapse {
+        display: none!important;
+        height: auto!important;
+        padding-bottom: 0;
+        overflow: visible!important;
+    }
+    .border-right {
+        border-right: none;
+        margin: 0px;
+    }
+}
+@media (min-width: 768px) {
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 1.5em;
+        line-height: 1.4;
+    }
+}
+@media screen and (max-width: 516px) {
+    #accent {
+        font-size: 2.0em;
+    }
+    .btn-success h1 {
+        font-size: 14px;
+    }
+    .glyphicon h5 {
+        display: none;
+    }
+    .header .container {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .carousel-caption {
+        position: absolute;
+        top: 70px;
+        z-index: 10;
+    }
+    .body-container,
+    .footer-container,
+    .navbar-wrapper,
+    .floating-broker-check { 
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+}
