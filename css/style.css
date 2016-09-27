@@ -63,7 +63,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     display: inline;
 }
 #myCarousel {
-	background: url("https://github.com/eharroun/WhatsMyRiskWebsite/blob/master/img/itembg.jpg") no-repeat bottom center fixed;
+	background: url("https://cdn.rawgit.com/eharroun/WhatsMyRiskWebsite/master/img/itembg.jpg") no-repeat bottom center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
